@@ -3,8 +3,6 @@ class Solution {
         String answer = "";
         
         answer = String.join("", arr);
-        
-        //배열을
             
         return answer;
     }
