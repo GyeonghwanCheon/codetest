@@ -1,9 +1,7 @@
 class Solution {
     public int solution(int a, int b, boolean flag) {
         int answer = 0;
-        boolean i = true;
         
-        answer = (flag == i ) ? a+b : a-b;
-        return answer;
+        return answer = flag ? a+b : a-b;
     }
 }
