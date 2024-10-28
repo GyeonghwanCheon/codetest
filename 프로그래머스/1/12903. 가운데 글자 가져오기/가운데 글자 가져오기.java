@@ -3,11 +3,7 @@ class Solution {
         String answer = "";
         char c1 = ' ';
         char c2 = ' ';
-        int cnt = 0;
-        
-        for(int i = 0; i<s.length(); i++) {
-            cnt++;
-        }
+        int cnt = s.length();
         
     
         if(cnt % 2 == 0) {
@@ -16,9 +12,9 @@ class Solution {
             
             answer = String.valueOf(c1);
             answer += String.valueOf(c2);
+            
         } else {
-            c1 = s.charAt(cnt/2);
-            answer = String.valueOf(c1);
+            answer = String.valueOf(s.charAt(cnt/2));
         }
         
         
